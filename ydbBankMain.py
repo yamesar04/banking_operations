@@ -161,6 +161,7 @@ class BankingMain(Banking):
             except IndexError:
                 print("Check Account Number.")
 
-bankob= BankingMain()
-bankob.BankRun()
+if __name__=='__main__':
+    bankob= BankingMain()
+    bankob.BankRun()
 
